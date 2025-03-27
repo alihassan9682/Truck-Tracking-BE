@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If using Django migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+
+# Environment variables
+.env
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python package files
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Cache files
+*.cache
+*.mo
+
+# If using Jupyter Notebook
+.ipynb_checkpoints/
+
+# If using Docker
+docker-compose.override.yml
